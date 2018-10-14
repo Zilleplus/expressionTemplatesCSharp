@@ -10,7 +10,6 @@ namespace LinAlg
 
         public Vector(params double[] elements)
         {
-            //_elements = new List<double>();
             _elements.AddRange(elements);
         }
 
